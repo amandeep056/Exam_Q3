@@ -1,0 +1,29 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnLaunchCalculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch Calculator App"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btnLaunchColorSelector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch Color Selector App"
+        android:layout_marginTop="16dp"/>
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
